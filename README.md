@@ -1,7 +1,6 @@
-# nuxt-vuetify-demos
+## nuxt-vuetify-demos
 
-> My dandy Nuxt.js project
-
+Collection of various Vus.js short demos using Nuxt.js and Vuetify.js
 ## Build Setup
 
 ```bash
@@ -19,4 +18,3 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
