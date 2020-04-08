@@ -17,5 +17,7 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/components/**/*.vue',
     '<rootDir>/pages/**/*.vue'
-  ]
+  ],
+  setupFiles: ['<rootDir>/test/setup.js'],
+  testMatch: ["**/test/**/*spec.js"]
 }
