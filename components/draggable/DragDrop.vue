@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col>
+  <v-container fill-height>
+    <v-row justify="center" align="center">
+      <v-col cols="12" sm="6">
         <v-list subheader>
           <v-subheader>Recent chat</v-subheader>
           <draggable v-model="items">
@@ -18,7 +18,7 @@
               </v-list-item-content>
 
               <v-list-item-icon>
-                <v-icon :color="item.active ? 'deep-purple accent-4' : 'grey'">
+                <v-icon :color="item.active ? 'yellow' : 'grey'">
                   chat_bubble
                 </v-icon>
               </v-list-item-icon>
